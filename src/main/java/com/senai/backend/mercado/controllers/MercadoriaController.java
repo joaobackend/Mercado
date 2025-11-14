@@ -13,14 +13,13 @@ import com.senai.backend.mercado.services.MercadoriaService;
 
 @RestController
 @RequestMapping
-
 public class MercadoriaController {
     
     @Autowired
     private MercadoriaService mercadoriaService;
 
-    @PostMapping("/cadastrar")
-    public Mercadoria cadastrar(@RequestBody Mercadoria mercadoria){
+    @PostMapping("/cadastro")
+    public Mercadoria cadastro(@RequestBody Mercadoria mercadoria){
         return mercadoriaService.cadastrar(mercadoria);
 
     }
