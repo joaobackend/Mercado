@@ -101,5 +101,6 @@ public class Funcionario {
     public void setMercadorias(List<Mercadoria> mercadorias) {
         this.mercadorias = mercadorias;
     }
-       
+
+    
 }
