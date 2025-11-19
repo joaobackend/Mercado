@@ -16,7 +16,7 @@ import com.senai.backend.mercado.models.Mercadoria;
 import com.senai.backend.mercado.services.MercadoriaService;
 
 @RestController
-@RequestMapping
+@RequestMapping("mercadoria")
 public class MercadoriaController {
     
     @Autowired

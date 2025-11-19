@@ -16,7 +16,7 @@ import com.senai.backend.mercado.models.Funcionario;
 import com.senai.backend.mercado.services.FuncionarioService;
 
 @RestController
-@RequestMapping
+@RequestMapping("/funcionario")
 public class FuncionarioController {
 
     @Autowired
