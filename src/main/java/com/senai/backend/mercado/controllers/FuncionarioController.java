@@ -48,6 +48,6 @@ public class FuncionarioController {
         if (funcionarioService.removerPorId(id)) {
             return "Funcionario removido com sucesso";
         } 
-            return "Falha ao remover o funcionario";
+            return "Falha em remover o funcionario";
         }
 }
