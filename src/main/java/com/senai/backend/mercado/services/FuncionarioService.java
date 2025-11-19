@@ -34,4 +34,13 @@ public class FuncionarioService {
         }
         return null;
     }
+
+    public boolean removerPorId(Integer id){
+      Funcionario fun = funcionarioRepository.findById(id).get();
+      if(fun != null){
+        funcionarioRepository.deleteById(id);
+        return true;
+      }  
+        return false;
+    }
 }
