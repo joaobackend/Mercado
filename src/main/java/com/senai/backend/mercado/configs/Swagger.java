@@ -8,7 +8,7 @@ import io.swagger.v3.oas.annotations.info.Info;
 @Configuration
 @OpenAPIDefinition(
     info = @Info(
-        title = "iT'S OVERcado",
+        title = "Giuseppe Mercadorias",
         version = "1.0",
         description = "João Pedro de Souza Rodrigues."
     )
